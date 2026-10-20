@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Data Table</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="data.js" defer></script>
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>People Data</h1>
+
+        <!-- Search -->
+        <input type="text" id="searchInput"
+               placeholder="Search by name or city...">
+
+        <br><br>
+
+        <!-- Sorting buttons -->
+        <button type="button" id="sortName">Sort by Name</button>
+
+        <br><br>
+
+        <button type="button" id="sortAge">Sort by Age</button>
+
+        <br><br>
+
+        <!-- Data table -->
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>City</th>
+                </tr>
+            </thead>
+
+            <tbody id="tableBody">
+                <!-- JavaScript will add the rows here -->
+            </tbody>
+        </table>
+
+        <p id="noResults" hidden>No matching people found.</p>
+
+        <p><a href="validation.html">Back to Registration</a></p>
+
+    </div>
+
+</body>
+</html>
+```
